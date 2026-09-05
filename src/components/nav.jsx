@@ -64,7 +64,7 @@ export default function Nav({ quotes, activeQuote }) {
                         About
                     </Link>
                     <Share
-                        quotesText={activeQuote?.quotes}
+                        quoteText={activeQuote?.quote}
                         author={activeQuote?.author}
                         hasQuote={quotes.length > 0}
                     />

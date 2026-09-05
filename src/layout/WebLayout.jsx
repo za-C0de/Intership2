@@ -26,6 +26,7 @@ export default function Layout(){
 
     const safeIndex = quotes.length > 0 ? currentQuote % quotes.length : 0;
     const activeQuote = quotes[safeIndex];
+    console.log(activeQuote);
 
     const handleClick = () => {
         // console.log('quotes length :',quotes.length);
